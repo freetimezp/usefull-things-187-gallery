@@ -71,8 +71,8 @@ footer {
 
 .gallery {
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 900px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,8 +82,8 @@ footer {
 
 .card {
     position: absolute;
-    width: 45px;
-    height: 60px;
+    width: 60px;
+    height: 80px;
     border-radius: 4px;
     transform-origin: center;
     will-change: transform;
