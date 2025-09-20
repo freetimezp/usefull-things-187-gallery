@@ -1,7 +1,4 @@
-import collection from "./collection";
-
-import gsap from "gsap";
-import SplitText from "gsap/SplitText";
+import collection from "./collection.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     gsap.registerPlugin(SplitText);
@@ -183,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         const viewportWidth = window.innerWidth;
-        let galleryScale = 1;
+        let galleryScale = 1.2;
 
         if (viewportWidth < 768) {
             galleryScale = 0.6;
